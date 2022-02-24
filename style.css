@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+	--goldy: #c59d5f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: black;
+}
+/* title */
+.title > span {
+	font-size: 2rem;
+	font-weight: bold;
+	color: wheat;
+	border-bottom: 4px solid red;
+}
+/* menu items */
+.menu-items > ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	list-style: none;
+}
+
+.menu-items > ul > li {
+	border: 2px solid red;
+	margin: 10px;
+	padding: 5px 10px;
+	font-size: 1.3rem;
+	font-weight: 600;
+	border-radius: 4px;
+	color: wheat;
+}
+
+.menu-items > ul > li:hover {
+	background-color: red;
+	color: wheat;
+	cursor: pointer;
+}
+
+/* food boxs content */
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content .image {
+	width: 900px;
+	height: 200px;
+	border: 3px solid red;
+	border-radius: 5px;
+}
+.content .image img {
+	width: 100%;
+	height: 100%;
+}
+.content .htpd {
+	margin-left: 20px;
+	width: 1000px;
+}
+.content .htpd .header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid white;
+	padding: 0px 5px;
+}
+.content .htpd .title {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: wheat;
+}
+.content .htpd .price {
+	font-size: 1rem;
+	font-weight: 800;
+	color: wheat;
+	word-spacing: 2px;
+}
+.content .htpd .description p {
+	font-size: 0.9rem;
+	color: wheat;
+}
