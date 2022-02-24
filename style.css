@@ -54,7 +54,7 @@ body {
 .content .image {
 	width: 900px;
 	height: 200px;
-	border-right: 3px solid red;
+	border-right: 5px solid red;
 	border-radius: 5px;
 }
 .content .image img {
