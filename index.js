@@ -109,7 +109,7 @@ const food = fooditem.map((items) => {
 });
 
 const foodKaDabba = document.querySelectorAll(".food-box");
-const menuList = document.querySelectorAll("ul");
+const menuList = document.querySelectorAll("ul > li");
 
 // iterating over the menu ul
 menuList.forEach((m) => {
